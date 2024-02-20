@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.none-container {
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.none-image {
+  width: 400px;
+}
+@media screen and (max-width: 767px) {
+  .none-image {
+    width: 300px;
+  }
+}
+.none-text {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #334155;
+  font-weight: 400;
+  line-height: 1;
+}
+@media screen and (max-width: 767px) {
+  .none-text {
+    font-size: 20px;
+  }
+}
+.none-brief {
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: center;
+  color: #64748b;
+  line-height: 1;
+}
+@media screen and (max-width: 767px) {
+  .none-brief {
+    font-size: 13px;
+    width: 300px;
+  }
+}
+.light-text {
+  color: #f8fafc;
+}
